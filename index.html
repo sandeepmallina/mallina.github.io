@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- icon -->
+  <link rel="icon" href="profile.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style.css">
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+
+  <title></title>
+</head>
+
+<body>
+  <section id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+      <!-- here container fluid because it occupies full width of the view port -->
+      <!-- Nav Bar -->
+      
+        <!-- here navbar-expand makes it responsive -->
+        <a class="navbar-brand" href="#">SA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto">
+            <!-- here ms-auto make the ul tag to left of the nav bar -->
+            <li class="nav-item ">
+              <a class="nav-link " href="#header">HOME</a>
+              <!-- use id sections for internal page navigation -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#about-container">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#portfolio-container">PORTFOLIO</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="#contact-container">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+  </section>
+  <div class="btn-group-vertical" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-color" onclick="window.open('https://github.com/sandeepmallina','_blank')"  ><i class="fa-brands fa-github  fa-2x"></i></button>
+    <button type="button" class="btn btn-color" onclick="window.open('https://www.linkedin.com/in/sandeep-mallina-2813531b7/','_blank')" ><i class="fa-brands fa-linkedin fa-2x"></i></button>
+    <button type="button" class="btn btn-color" onclick="window.open('https://twitter.com/mallina_sandeep','_blank')" ><i class="fa-brands fa-twitter-square fa-2x"></i></button>
+    <button type="button" class="btn btn-color" onclick="window.open('https://www.instagram.com/sandeepmallina/','_blank')" ><i class="fa-brands fa-instagram fa-2x"></i></button>
+    <button type="button" class="btn btn-color" id="myBtn" onclick="topFunction()" ><i class="fa-solid fa-arrow-up fa-2x"></i></button>
+  </div>
+  <button type="button" class="btn btn-color" id="m-myBtn" onclick="topFunction()" ><i class="fa-solid fa-arrow-up fa-2x"></i></button>
+  <!-- intro page -->
+  <section class="title-container">
+    <div class="container h-container ">
+      <h1 class="title-container-h">Sandeep Mallina</h1><br>
+      <h3 class="title-container-h">I am a <span class="typing"></span></h3>
+      <br>
+  </div>
+  <img class="logo-img" src="https://i.im.ge/2022/07/11/unqymM.png" alt="" srcset="">
+  
+</section>
+<div class="arrow-head">
+  <a href="#about-container"><i class="fa fa-thin fa-arrow-down-long"></i></a>
+</div>
+    <section id="about-container">
+      
+        <img class="about-container-img " src="profile.png" alt="profile-photo">
+        <h1 class="about-container-h1">About me <span>:</span></h1>
+        <div class="container-fluid about-container-p ">
+        <p >I'm Sandeep Mallina a  19 year old CS student at Lovely professional University,India.
+            I am ambitious && Enthusiast guy who want's to try everything
+          and want to experience every everything.Here this is peice of my work ❤️.</p>
+          <!-- <h3 class="about-container-h3">Every thing is not  rocket science</h3> -->
+      </div>
+      </section>
+      <section id="portfolio-container">
+        <h1 class="portfolio-container-h1">Portfolio:</h1>
+        <div class="container portfolio-container">
+          <div class="row  ">
+              <div class=" col-lg-4 col-md-12 col-sm-12 ">
+                  <div class="card mb-4 rounded-3 ">
+                    <!-- mb=margin-botton -->
+                      <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Event calender</h4>
+                      </div>
+                      <div class="card-body shadow rounded">
+                          <img class="image" src="https://i.im.ge/2022/07/19/FFHY00.jpg" alt="" srcset="">
+                          <button type="button" class="w-100 btn btn-lg btn-primary">View</button>
+                      </div>
+                  </div>
+              </div>
+              <div class=" col-lg-4 col-md-12  col-sm-12 "> <div class="card mb-4 rounded-3 ">
+                <!-- mb=margin-botton -->
+                  <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">Event calender</h4>
+                  </div>
+                  <div class="card-body shadow rounded">
+                      <img class="image" src="https://i.im.ge/2022/07/19/FFHY00.jpg" alt="" srcset="">
+                      <button type="button" class="w-100 btn btn-lg btn-primary">View</button>
+                  </div>
+              </div> </div>
+              <div class=" col-lg-4 col-md-12 col-sm-12"> <div class="card mb-4 rounded-3 ">
+                <!-- mb=margin-botton -->
+                  <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">Event calender</h4>
+                  </div>
+                  <div class="card-body shadow rounded">
+                      <img class="image" src="https://i.im.ge/2022/07/19/FFHY00.jpg" alt="" srcset="">
+                      <button type="button" class="w-100 btn btn-lg btn-primary">View</button>
+                  </div>
+              </div></div>
+          </div>
+      </div>
+      </section>
+      <section id="contact-container">
+          <div class="container-fluid form-box ">
+            <h1 class="contact-container-h1">CONTACT ME <span class="h1-span">:</span></h1>
+          <form action="">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" id="name" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" cols="30" rows="8" placeholder="Message"></textarea>
+            </div>
+            <button class="contact-container-btn" type="submit">send</button>
+          </form>
+        </div>
+      </section>
+      <section class="m-contact-container">
+        <ul>
+          <li class="m-btn" ><a href="#home"><i class="fa-brands fa-github  fa-2x"></i></a></li>
+          <li class="m-btn"><a  href="#news"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+          <li class="m-btn"><a  href="#contact"><i class="fa-brands fa-twitter-square fa-2x"></i></a></li>
+          <li class="m-btn"><a  href="#about"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+        </ul>
+        <h3 class="m-contact-container-h3">©️ sandeep_mallina_2022</h3>
+      </section>
+  <!-- Java script -->
+  <script type="text/javascript" src="function.js"></script>
+
+</body>
+
+</html>
