@@ -235,6 +235,17 @@ display:  block ;
   
 }
 @media (max-device-width: 760px){
+  /* Nav-bar */
+  .navbar-brand{
+    font-size: 3.5rem;
+  }
+  .navbar-toggler-icon{
+    width: 2em;
+    height: 2em;
+  }
+  .nav-link{
+    font-size: 30px;
+  }
   /* vertical button and arrow head */
   .btn-group-vertical{
   visibility: hidden;
@@ -263,11 +274,11 @@ display:  block ;
     right: 2vh;
   }
   h1{
-    font-size:60px ;
+    font-size:70px ;
     padding-left: 0;
   }
   h3{
-    font-size: 40px;
+    font-size: 50px;
     padding-left: 0;
   }
   .arrow-head{
